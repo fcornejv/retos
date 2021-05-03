@@ -11,7 +11,7 @@ let divLi = document.getElementsByTagName("li");
 btnAgregar.addEventListener('click',function(){
     let tarea = ingreso.value;
     if(tarea === ""){
-        alert("Las responsabilidades son primero")
+        alert("no ingreso una tarea")
     }else{
     let li= document.createElement('li');
         li.innerHTML= tarea;
